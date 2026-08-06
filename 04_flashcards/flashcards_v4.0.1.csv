@@ -1,79 +1,152 @@
 front,back,chapter,LO
-"Los 7 principios de testing (principio 1)","Testing shows the presence of defects, NOT their absence",1,1.3.1
-"Los 7 principios de testing (principio 2)","Exhaustive testing is IMPOSSIBLE",1,1.3.1
-"Los 7 principios de testing (principio 3)","Early testing saves time and money",1,1.3.1
-"Los 7 principios de testing (principio 4)","Defects cluster together (Pareto: 80% bugs en 20% del código)",1,1.3.1
-"Los 7 principios de testing (principio 5)","Beware the pesticide paradox (mismos tests dejan de encontrar bugs)",1,1.3.1
-"Los 7 principios de testing (principio 6)","Testing is context-dependent",1,1.3.1
-"Los 7 principios de testing (principio 7)","Absence-of-errors is a fallacy (sin bugs ≠ software bueno)",1,1.3.1
-"Error vs Defect vs Failure","Error = mistake humano; Defect = imperfección en código; Failure = comportamiento visible",1,1.2.3
-"Root cause","Razón FUNDAMENTAL que origina el error (no el síntoma)",1,1.2.3
-"Whole team approach","Calidad es responsabilidad de TODO el equipo, no solo de testers",1,1.5.2
-"Independence of testing","Separación entre quien escribe y quien testea código (a mayor independencia, mejor detección)",1,1.5.3
-"Testing vs QA","QA = enfoque planificado/proactivo de procesos; Testing = actividad de QC que verifica calidad",1,1.2.2
-"Testware","Artefactos producidos durante testing (test plan, cases, scripts, data, reports, logs)",1,1.4.3
-"Traceability","Vínculo entre requisitos ↔ test cases ↔ defects ↔ riesgos",1,1.4.4
-"Shift-left (NUEVO v4.0)","Mover testing lo más temprano posible en el ciclo SDLC",2,2.1.5
-"DevOps impact (NUEVO v4.0)","Testing continuo integrado en CI/CD pipeline, monitoreo en producción",2,2.1.4
-"Retrospectives (NUEVO v4.0)","Mecanismo de mejora continua del proceso de testing al final de cada iteración",2,2.1.6
-"Test-first approaches (NUEVO)","TDD (dev), ATDD (equipo), BDD (lenguaje natural given-when-then)",2,2.1.3
-"Los 4 niveles de testing","Component, Integration, System, Acceptance",2,2.2.1
-"Component testing","Tests unitarios aislados, owner=developer",2,2.2.1
-"Component integration testing (NUEVO énfasis)","Tests del componente vs infraestructura externa (DB, FS, servicios)",2,2.2.1
-"Integration testing","Tests entre componentes / sistemas. Owner: dev o tester",2,2.2.1
-"System testing","Test del sistema integrado completo. Owner: independiente",2,2.2.1
-"Acceptance testing","User (UAT), Operational (OAT), Contractual, Regulatory, Alpha, Beta",2,2.2.1
-"Functional testing","QUÉ hace el sistema (cumple requisitos funcionales)",2,2.2.2
-"Non-functional testing","CÓMO de bien lo hace (performance, security, etc.)",2,2.2.2
-"ISO 25010:2023 - 8 characteristics","Functional, Performance efficiency, Compatibility, Interaction capability, Reliability, Security, Maintainability, Flexibility (+ Safety)",2,2.2.2
-"Interaction capability (antes Usability)","Capacidad de uso por usuarios específicos ISO 25010:2023",2,2.2.2
-"Flexibility (antes Portability)","Capacidad de transferirse entre ambientes ISO 25010:2023",2,2.2.2
-"Safety (NUEVO ISO 25010:2023)","Operar sin causar daño a personas/datos",2,2.2.2
-"Confirmation testing","Verifica que UN bug específico está fixed (re-test)",2,2.2.3
-"Regression testing","Verifica que cambios NO rompieron nada más (suite completa)",2,2.2.3
-"Maintenance testing triggers","Migration, retirement, nuevos environments",2,2.3.1
-"Static vs Dynamic testing","Static = NO ejecuta el software (revisiones, análisis); Dynamic = SÍ ejecuta",3,3.1.3
-"Work products que pasan static testing","Requisitos, diseño, código, casos de prueba, contratos",3,3.1.1
-"Tipo de review MÁS formal","Inspection (roles definidos, métricas, proceso formal)",3,3.2.4
-"Walkthrough","Review informal, dirigida por el AUTOR",3,3.2.4
-"Roles en review","Author, Moderator, Reviewer, Scribe, Manager",3,3.2.3
-"Inspection benefits","Roles formales + métricas + proceso estructurado + early detection",3,3.2.4
-"3 familias de técnicas testing","Black-box, White-box, Experience-based (+ Collaboration-based NUEVO)",4,4.1.1
-"Equivalence Partitioning (EP)","Dividir input en grupos que se comportan igual. 1 valor por partición basta",4,4.2.1
-"BVA - Boundary Value Analysis","Tests en bordes (límites) entre particiones. 2-value o 3-value",4,4.2.2
-"Decision Table Testing","Combinaciones de condiciones → acciones. Útil con lógica compleja",4,4.2.3
-"State Diagram (antes state transition diagram)","Estados + eventos + transiciones + acciones",4,4.2.4
-"Statement coverage","% statements ejecutados al menos una vez",4,4.3.1
-"Branch coverage","% branches evaluados a true y false (>= statement coverage)",4,4.3.2
-"White-box testing","Basado en estructura interna del código",4,4.3.3
-"Error guessing","Tester adivina dónde habría bugs basándose en experiencia",4,4.4.1
-"Exploratory testing","Diseño + ejecución + aprendizaje en paralelo. Charter + timebox + notas",4,4.4.2
-"Checklist-based testing","Listas de verificación predefinidas",4,4.4.3
-"User story format","Como <rol>, quiero <acción>, para <beneficio>",4,4.5.1
-"INVEST criteria","Independent, Negotiable, Valuable, Estimable, Small, Testable",4,4.5.1
-"Acceptance criteria formatos","Given-When-Then, Checklist, Scenario-based",4,4.5.2
-"ATDD = Acceptance Test-Driven Development","Equipo (dev+test+business) escribe acceptance tests ANTES del código",4,4.5.3
-"TDD vs ATDD","TDD=unit-level developer solo; ATDD=acceptance-level equipo (3 amigos)",4,4.5.3
-"Entry criteria","Condiciones ANTES de empezar testing",5,5.1.3
-"Exit criteria","Condiciones ANTES de cerrar testing. NO sinónimo de entry",5,5.1.3
-"Test pyramid (NUEVO v4.0)","Muchos unit tests abajo, pocos UI/E2E arriba (~70/20/10)",5,5.1.6
-"Testing quadrants (NUEVO v4.0)","Q1 functional business-facing; Q2 functional tech-facing; Q3 non-func business; Q4 non-func tech",5,5.1.7
-"Risk level = likelihood × impact","Producto de probabilidad e impacto",5,5.2.1
-"Project risks","Afectan schedule/coste/calidad del PROYECTO",5,5.2.2
-"Product risks","Afectan calidad del PRODUCTO final",5,5.2.2
-"4 respuestas a riesgos","Accept, Mitigate, Transfer, Avoid (AMTA)",5,5.2.4
-"Test case prioritization","Ordenar tests según riesgo/cobertura/etc",5,5.1.5
-"Wideband Delphi","Estimación iterativa con expertos anónimos (3 rondas)",5,5.1.4
-"Test progress vs completion report","Progress=ongoing; Completion=al cerrar proyecto",5,5.3.2
-"Severity","IMPACTO técnico del defecto (high/medium/low)",5,5.5.1
-"Priority","URGENCIA para fixear (high/medium/low)",5,5.5.1
-"Severity vs Priority","Inversos posibles: cosmético en página popular = low severity + high priority",5,5.5.1
-"Defect lifecycle","New → Assigned → InProgress → Resolved → Verified → Closed",5,5.5.1
-"Test automation benefits","Velocidad, repetibilidad, sin cansancio humano",6,6.2.1
-"Test automation risks","Mantenimiento alto, falsa sensación de 100% coverage",6,6.2.1
-"Static analysis tools","Linters (ESLint), type checkers, complexity analyzers",6,6.1.1
-"Test execution tools","Run tests automáticamente (Selenium, Playwright, Cypress)",6,6.1.1
-"Performance testing tools","JMeter, Gatling, LoadRunner",6,6.1.1
-"K1 cognitive level","Reconocer / recordar (recall)",0,general
-"K2 cognitive level","Explicar / distinguir / comparar (understand)",0,general
-"K3 cognitive level","USAR una técnica (apply in context)",0,general
+Los 7 principios de testing (principio 1),"Testing shows the presence of defects, NOT their absence",1,1.3.1
+Los 7 principios de testing (principio 2),Exhaustive testing is IMPOSSIBLE,1,1.3.1
+Los 7 principios de testing (principio 3),Early testing saves time and money,1,1.3.1
+Los 7 principios de testing (principio 4),Defects cluster together (Pareto: 80% bugs en 20% del código),1,1.3.1
+Los 7 principios de testing (principio 5),Beware the pesticide paradox (mismos tests dejan de encontrar bugs),1,1.3.1
+Los 7 principios de testing (principio 6),Testing is context-dependent,1,1.3.1
+Los 7 principios de testing (principio 7),Absence-of-errors is a fallacy (sin bugs ≠ software bueno),1,1.3.1
+Error vs Defect vs Failure,Error = mistake humano; Defect = imperfección en código; Failure = comportamiento visible,1,1.2.3
+Root cause,Razón FUNDAMENTAL que origina el error (no el síntoma),1,1.2.3
+Whole team approach,"Calidad es responsabilidad de TODO el equipo, no solo de testers",1,1.5.2
+Independence of testing,"Separación entre quien escribe y quien testea código (a mayor independencia, mejor detección)",1,1.5.3
+Testing vs QA,QA = enfoque planificado/proactivo de procesos; Testing = actividad de QC que verifica calidad,1,1.2.2
+Testware,"Artefactos producidos durante testing (test plan, cases, scripts, data, reports, logs)",1,1.4.3
+Traceability,Vínculo entre requisitos ↔ test cases ↔ defects ↔ riesgos,1,1.4.4
+Shift-left (NUEVO v4.0),Mover testing lo más temprano posible en el ciclo SDLC,2,2.1.5
+DevOps impact (NUEVO v4.0),"Testing continuo integrado en CI/CD pipeline, monitoreo en producción",2,2.1.4
+Retrospectives (NUEVO v4.0),Mecanismo de mejora continua del proceso de testing al final de cada iteración,2,2.1.6
+Test-first approaches (NUEVO),"TDD (dev), ATDD (equipo), BDD (lenguaje natural given-when-then)",2,2.1.3
+Los 4 niveles de testing,"Component, Integration, System, Acceptance",2,2.2.1
+Component testing,"Tests unitarios aislados, owner=developer",2,2.2.1
+Component integration testing (NUEVO énfasis),"Tests del componente vs infraestructura externa (DB, FS, servicios)",2,2.2.1
+Integration testing,Tests entre componentes / sistemas. Owner: dev o tester,2,2.2.1
+System testing,Test del sistema integrado completo. Owner: independiente,2,2.2.1
+Acceptance testing,"User (UAT), Operational (OAT), Contractual, Regulatory, Alpha, Beta",2,2.2.1
+Functional testing,QUÉ hace el sistema (cumple requisitos funcionales),2,2.2.2
+Non-functional testing,"CÓMO de bien lo hace (performance, security, etc.)",2,2.2.2
+ISO 25010:2023 - 8 characteristics,"Functional, Performance efficiency, Compatibility, Interaction capability, Reliability, Security, Maintainability, Flexibility (+ Safety)",2,2.2.2
+Interaction capability (antes Usability),Capacidad de uso por usuarios específicos ISO 25010:2023,2,2.2.2
+Flexibility (antes Portability),Capacidad de transferirse entre ambientes ISO 25010:2023,2,2.2.2
+Safety (NUEVO ISO 25010:2023),Operar sin causar daño a personas/datos,2,2.2.2
+Confirmation testing,Verifica que UN bug específico está fixed (re-test),2,2.2.3
+Regression testing,Verifica que cambios NO rompieron nada más (suite completa),2,2.2.3
+Maintenance testing triggers,"Migration, retirement, nuevos environments",2,2.3.1
+Static vs Dynamic testing,"Static = NO ejecuta el software (revisiones, análisis); Dynamic = SÍ ejecuta",3,3.1.3
+Work products que pasan static testing,"Requisitos, diseño, código, casos de prueba, contratos",3,3.1.1
+Tipo de review MÁS formal,"Inspection (roles definidos, métricas, proceso formal)",3,3.2.4
+Walkthrough,"Review informal, dirigida por el AUTOR",3,3.2.4
+Roles en review,"Author, Moderator, Reviewer, Scribe, Manager",3,3.2.3
+Inspection benefits,Roles formales + métricas + proceso estructurado + early detection,3,3.2.4
+3 familias de técnicas testing,"Black-box, White-box, Experience-based (+ Collaboration-based NUEVO)",4,4.1.1
+Equivalence Partitioning (EP),Dividir input en grupos que se comportan igual. 1 valor por partición basta,4,4.2.1
+BVA - Boundary Value Analysis,Tests en bordes (límites) entre particiones. 2-value o 3-value,4,4.2.2
+Decision Table Testing,Combinaciones de condiciones → acciones. Útil con lógica compleja,4,4.2.3
+State Diagram (antes state transition diagram),Estados + eventos + transiciones + acciones,4,4.2.4
+Statement coverage,% statements ejecutados al menos una vez,4,4.3.1
+Branch coverage,% branches evaluados a true y false (>= statement coverage),4,4.3.2
+White-box testing,Basado en estructura interna del código,4,4.3.3
+Error guessing,Tester adivina dónde habría bugs basándose en experiencia,4,4.4.1
+Exploratory testing,Diseño + ejecución + aprendizaje en paralelo. Charter + timebox + notas,4,4.4.2
+Checklist-based testing,Listas de verificación predefinidas,4,4.4.3
+User story format,"Como <rol>, quiero <acción>, para <beneficio>",4,4.5.1
+INVEST criteria,"Independent, Negotiable, Valuable, Estimable, Small, Testable",4,4.5.1
+Acceptance criteria formatos,"Given-When-Then, Checklist, Scenario-based",4,4.5.2
+ATDD = Acceptance Test-Driven Development,Equipo (dev+test+business) escribe acceptance tests ANTES del código,4,4.5.3
+TDD vs ATDD,TDD=unit-level developer solo; ATDD=acceptance-level equipo (3 amigos),4,4.5.3
+Entry criteria,Condiciones ANTES de empezar testing,5,5.1.3
+Exit criteria,Condiciones ANTES de cerrar testing. NO sinónimo de entry,5,5.1.3
+Test pyramid (NUEVO v4.0),"Muchos unit tests abajo, pocos UI/E2E arriba (~70/20/10)",5,5.1.6
+Testing quadrants (NUEVO v4.0),Q1 functional business-facing; Q2 functional tech-facing; Q3 non-func business; Q4 non-func tech,5,5.1.7
+Risk level = likelihood × impact,Producto de probabilidad e impacto,5,5.2.1
+Project risks,Afectan schedule/coste/calidad del PROYECTO,5,5.2.2
+Product risks,Afectan calidad del PRODUCTO final,5,5.2.2
+4 respuestas a riesgos,"Accept, Mitigate, Transfer, Avoid (AMTA)",5,5.2.4
+Test case prioritization,Ordenar tests según riesgo/cobertura/etc,5,5.1.5
+Wideband Delphi,Estimación iterativa con expertos anónimos (3 rondas),5,5.1.4
+Test progress vs completion report,Progress=ongoing; Completion=al cerrar proyecto,5,5.3.2
+Severity,IMPACTO técnico del defecto (high/medium/low),5,5.5.1
+Priority,URGENCIA para fixear (high/medium/low),5,5.5.1
+Severity vs Priority,Inversos posibles: cosmético en página popular = low severity + high priority,5,5.5.1
+Defect lifecycle,New → Assigned → InProgress → Resolved → Verified → Closed,5,5.5.1
+Test automation benefits,"Velocidad, repetibilidad, sin cansancio humano",6,6.2.1
+Test automation risks,"Mantenimiento alto, falsa sensación de 100% coverage",6,6.2.1
+Static analysis tools,"Linters (ESLint), type checkers, complexity analyzers",6,6.1.1
+Test execution tools,"Run tests automáticamente (Selenium, Playwright, Cypress)",6,6.1.1
+Performance testing tools,"JMeter, Gatling, LoadRunner",6,6.1.1
+K1 cognitive level,Reconocer / recordar (recall),0,general
+K2 cognitive level,Explicar / distinguir / comparar (understand),0,general
+K3 cognitive level,USAR una técnica (apply in context),0,general
+Test independence levels (4),Author → peer colleague → separate team → external company. ISTQB ranks by degree of independence.,1,1.5.3
+Whole team approach,All team members (dev + QA + business) share responsibility for quality.,1,1.5.2
+Difference between QA and Testing,"QA: process-focused, prevention-oriented. Testing: activity-focused, defect detection.",1,1.1.1
+Test objectives (typical 7),"Find defects, ensure coverage, reduce risk, verify compliance, give info to stakeholders, build confidence, find defects (yes, twice)",1,1.1.1
+Debugging vs Testing,Debugging: dev finds and fixes root cause. Testing: QA executes test cases.,1,1.4.2
+Mistake vs Defect,Mistake/error: human action. Defect: imperfection in work product. Same root cause.,1,1.2.3
+When is testing complete?,"When exit criteria met (e.g., 95% pass rate, no critical bugs, coverage target reached). NEVER because time runs out.",1,1.4.4
+Why testing is necessary,"Reduce risk of defects in prod, ensure contract compliance, regulatory compliance, build stakeholder confidence.",1,1.1.1
+Defect categories ISTQB,"Wrong/missing/extra functionality. Performance, security, usability defects.",1,1.5.1
+Test oracle,"Mechanism to determine expected results (spec, heuristic, user story, similar system).",1,1.4.3
+Component testing scope,Tests individual components in isolation. Often automated. Done by developer.,2,2.2.1
+Integration testing types,"Component integration, system integration. Tests interactions between units.",2,2.2.1
+System testing,Tests complete integrated system. Tests functional and non-functional requirements.,2,2.2.1
+Acceptance testing types,"User acceptance (UAT), operational acceptance (OAT), contractual acceptance, regulatory acceptance, alpha/beta.",2,2.2.1
+Functional vs Non-functional,"Functional: what system does. Non-functional: how well (perf, security, usability).",2,2.2.2
+Change-related testing,Confirmation (re-test specific defect) + Regression (ensure no other functionality broken).,2,2.2.3
+Maintenance testing,"Testing after release for bug fixes, enhancements, migration, retirement.",2,2.2.4
+DevOps impact on testing,"Continuous testing, CI/CD integration, automated pipelines, faster feedback loops.",2,2.1.4
+Shift-left principle,Move testing earlier in SDLC. Test from requirements phase. Reduces cost of fixes.,2,2.1.5
+Retrospectives purpose,Identify process improvements. Done at end of sprint/iteration. Whole team attends.,2,2.1.6
+Static testing types,"Reviews (manual) + Static analysis (automated, e.g., linters).",3,3.1.1
+Work products that can be reviewed,"Requirements, design specs, code, test plans, test cases, contracts, any artifact.",3,3.1.1
+Benefits of static testing,"Find defects early (cheaper), improve consistency, find missing requirements, communication.",3,3.1.2
+Differences static vs dynamic,Static: no execution. Dynamic: executes code. Both find defects.,3,3.1.3
+Walkthrough characteristics,"Informal, author-led, educational purpose, open discussion.",3,3.2.1
+Technical review characteristics,"Peer-driven, documented, finds defects + suggests alternatives.",3,3.2.2
+Inspection (most formal),"Defined roles (moderator, author, reader, scribe, reviewer), metrics collected, entry/exit criteria.",3,3.2.4
+Roles in inspection,"Moderator (NOT author), Author, Reader, Scribe, Reviewer. Moderator is key role.",3,3.2.3
+EP: 3 invalid partitions for age,"Age accepts 18-65. Invalid 1: <18. Invalid 2: >65. Invalid 3: non-numeric (string, null). 3 tests.",4,4.2.1
+BVA: 2-value for password length 8-16,"b-1=7, b=8, a=16, a+1=17. 4 tests.",4,4.2.2
+BVA: 3-value for password length 8-16,"b-1=7, b=8, b+1=9, a-1=15, a=16, a+1=17. 6 tests.",4,4.2.2
+Decision table: 3 conditions,Up to 8 combinations (2^3). Can be collapsed to fewer rows if actions same.,4,4.2.3
+Decision table collapsing rule,Combine rows where same actions apply (regardless of one differing condition).,4,4.2.3
+State diagram: valid coverage 0-switch,Each transition tested at least once. Min tests = number of transitions.,4,4.2.4
+State diagram: invalid transition test,"Test transitions that should NOT occur (e.g., enter wrong PIN 3x should lock card).",4,4.2.4
+Statement coverage of if-else,1 test (run one branch) → 100% statement. 2 tests (both branches) → 100% branch.,4,4.3.1
+Branch coverage 100% implies...,Statement coverage is also 100%. Branch ≥ Statement always.,4,4.3.2
+Use case testing coverage,"Each scenario (main, alternative, exception) is tested at least once.",4,4.2.5
+Error guessing technique,Predict likely bugs based on experience. Not systematic but finds issues EP/BVA miss.,4,4.4.1
+Exploratory testing definition,"Simultaneous learning, test design, and execution. Charter-based, time-boxed.",4,4.4.2
+Exploratory vs ad-hoc,"Exploratory: charter, time-box, learning. Ad-hoc: random, no structure.",4,4.4.2
+Checklist-based testing pros,"Fast, repeatable, good for compliance. Cons: misses new bug types.",4,4.4.3
+User story format (ISTQB),"Como <rol>, quiero <acción>, para <beneficio>. 1-2 sentences.",4,4.5.1
+INVEST criteria for user stories,"Independent, Negotiable, Valuable, Estimable, Small, Testable.",4,4.5.1
+Acceptance criteria format options,"Given-When-Then (Gherkin/BDD), bullet checklist, scenario-based.",4,4.5.2
+TDD cycle,Red (write failing test) → Green (make pass) → Refactor. Cycle ~minutes.,4,4.5.3
+BDD vs TDD,TDD: unit tests by dev. BDD: behavior tests (Given-When-Then) by team. Both test-first.,4,4.5.3
+ATDD vs TDD,TDD: unit-level. ATDD: acceptance-level (entire feature). Both test-first.,4,4.5.3
+Defect masking,"When invalid partitions tested together, first failure hides others. ISTQB v4.0: test invalid in isolation.",4,4.2.1
+Specification-based techniques (4),"EP, BVA, Decision Tables, State Transition. Also: Use Case testing.",4,4.2
+Structure-based techniques,"Statement coverage, branch coverage. Both white-box.",4,4.3
+Experience-based techniques,"Error guessing, exploratory testing, checklist-based.",4,4.4
+Collaboration-based techniques (NEW v4.0),"User story testing, ATDD. Third party (dev + QA + business) writes tests.",4,4.5
+Test plan purpose,"Defines scope, approach, resources, schedule, exit criteria for testing.",5,5.1.1
+Entry criteria examples,"Test env available, code deployed, test data ready, unit tests passed.",5,5.1.2
+Exit criteria examples,"95% pass rate, no critical bugs, coverage target met, time elapsed.",5,5.1.3
+Test estimation techniques,"Expert judgment, work breakdown, past data, 3-point (O+4M+P)/6, function points.",5,5.1.4
+Test prioritization criteria,"Risk, coverage, critical functionality, dependencies, customer priority.",5,5.1.5
+Test pyramid (NEW v4.0),"70% unit (base), 20% integration, 10% E2E (top).",5,5.1.6
+Testing quadrants Q1,"Tech-facing, support team: component + integration tests.",5,5.1.7
+Testing quadrants Q2,"Business-facing, support team: functional, story, system tests.",5,5.1.7
+Testing quadrants Q3,"Business-facing, critique product: exploratory, usability, UAT.",5,5.1.7
+Testing quadrants Q4,"Tech-facing, critique product: performance, security, scalability.",5,5.1.7
+Risk = ?,"Likelihood × Impact. Product, NOT sum.",5,5.2.1
+Risk response: Accept,Acknowledge but don't mitigate. Use for low-risk items.,5,5.2.4
+Risk response: Mitigate,Reduce likelihood or impact. Most common strategy.,5,5.2.4
+Risk response: Transfer,"Pass to other party. Insurance, outsourcing, SaaS.",5,5.2.4
+Risk response: Avoid,Eliminate the risk entirely. Don't do the feature.,5,5.2.4
+Test tool categories,"Test management, execution, static analysis, performance, security, coverage, CI/CD.",6,6.1.1
+Test tool benefits,"Speed, repeatability, accuracy, automation of repetitive tasks.",6,6.2.1
+Test tool risks,"High maintenance, false expectations, vendor lock-in, automation bias.",6,6.2.1
+Test tool selection criteria,"Maturity, vendor support, fit with team, cost, integration with existing tools.",6,6.2.2
+Pilot project for tool,Small project before full rollout. Validates tool selection. Reduces risk.,6,6.2.3
