@@ -2,10 +2,11 @@
 
 > **Material curado para preparar el examen ISTQB Certified Tester Foundation Level (CTFL) v4.0.1** — la credencial internacional más reconocida de QA.
 
-📅 **Basado en:** Syllabus oficial ISTQB CTFL v4.0.1 (15-sep-2024, 78 pp, 1135 min oficiales de instrucción)
-📅 **Idiomas:** examen rendido en español LATAM a través de ASOLINFO Paraguay
+📅 **Basado en:** Syllabus oficial ISTQB CTFL v4.0.1 (15-sep-2024, 78 pp, 1135 min oficiales)
+📅 **Idiomas:** español LATAM (ASOLINFO Paraguay)
 📅 **Licencia:** MIT (este material) + © ISTQB (syllabus oficial — enlazado, no redistribuido)
 🌐 **Repo público:** https://github.com/IvanWeissVanDerPol/istqb-prep-v4
+⭐ **Apto para:** Junior/Mid/Senior QA en Paraguay y LATAM, o grupos de estudio
 
 ---
 
@@ -18,37 +19,48 @@
 5. ✅ Haz **quizzes por capítulo** en [`06_practice_tests/quizzes_por_capitulo/`](06_practice_tests/quizzes_por_capitulo/)
 6. 🎯 Rendí **3 sample exams** completos en [`06_practice_tests/`](06_practice_tests/) (cronometrados, 60 min)
 7. 🎴 Importa **flashcards** a Anki → ver [`04_flashcards/anki_import_guide.md`](04_flashcards/anki_import_guide.md)
-8. 🏆 Última semana: **repasá los [quick refs](08_quick_refs/)** (1 página por capítulo)
-9. 📖 Leé **[`09_career_paths/`](09_career_paths/)** después del examen para planificar tu carrera
-10. 🛡️ Leé **[`10_exam_difficulty/`](10_exam_difficulty/)** para entender por qué falla la gente y cómo evitarlo
+8. 📄 Repasá **cheat sheets** (1-página por concepto) en [`16_cheat_sheets/`](16_cheat_sheets/)
+9. 👥 Coordiná con tu grupo via [`17_study_groups/`](17_study_groups/)
+10. 🛡️ Leé **[`10_exam_difficulty/`](10_exam_difficulty/)** para evitar el 25-30% fail rate
+11. 💼 Después del examen: [`09_career_paths/`](09_career_paths/), [`11_cert_paths/`](11_cert_paths/), [`15_interview_prep/`](15_interview_prep/)
 
 ---
 
-## 🆕 What's New (Aug 2026 update)
+## 🆕 What's New (Aug 2025 update)
 
-- **9 career paths added:** junior QA → SDET → staff engineer con salaries PY/LATAM/US
-- **10 exam failure analysis** + concrete checklist (avoid the 25-30% fail rate)
-- **11 cert paths** — full ISTQB catalog + alternatives (CSTE, CSQA, AWS, security certs)
-- **12 external resources** — top 5 GitHub repos para CTFL v4.0 + simulators
-- **Hard Mode Quiz Cap 4 & 5** — 20 preguntas con escenarios reales (donde la gente más falla)
+### Latest additions (round 2)
+
+- **14_external_repos/**: 18+ GitHub repos curados (incluye Farhod75/ct-ai-exam-prep con 420+ preguntas CT-GenAI/CT-AI, LuisAdonais portfolio, snromanov AI test gen)
+- **15_interview_prep/**: 60 preguntas ISTQB + coding + behavioral + frameworks STAR
+- **16_cheat_sheets/**: 15 printable cheat sheets (1 página cada uno, ASCII art)
+- **17_study_groups/**: Facilitation guide para grupo ISTQB PY + templates de WhatsApp + role rotation
+
+### Round 1 (ya publicadas)
+
+- **09_career_paths/**: Junior → Principal ladder, salaries PY/LATAM/US
+- **10_exam_difficulty/**: 7 razones de fallo + fixes + checklist
+- **11_cert_paths/**: Full ISTQB catalog + CSTE/CSQA/AWS alternatives
+- **12_external_resources/**: Top 5 GitHub repos + simulators
+- **Hard Mode Quiz (Cap 4+5)**: 20 preguntas K3 advanced
 
 ---
 
 ## 📚 Para qué sirve este repo
 
-| Audencia | Beneficio |
+| Audiencia | Beneficio |
 |---|---|
-| 🧑‍🎓 **Aspirantes a QA** | Plan de estudio de 8 semanas con todo lo necesario para el examen |
-| 👥 **Grupo de estudio** | Material compartido, quizzes, deck Anki, sample exams |
+| 🧑‍🎓 **Aspirantes a QA** | Plan de estudio de 8 semanas con todo lo necesario |
+| 👥 **Grupos de estudio** | Material compartido, quizzes, deck Anki, sesiones guiadas |
 | 📚 **Profesores / Instructores** | Syllabus estructurado v4.0.1, quizzes con explicaciones |
-| 🧪 **QA Analysts** | Glosario actualizado v4.0.1 + vocabulario oficial ISTQB |
-| 🇵🇾 **Paraguay específico** | Contacto ASOLINFO + costos approximate |
-| 💼 **Career switchers** | `09_career_paths/` para entender roles y salarios |
-| 📈 **Career growth** | `11_cert_paths/` para planear siguientes certs (CTAL-TA, CT-GenAI, etc.) |
+| 🧪 **QA Analysts** | Glosario actualizado + vocabulario oficial ISTQB |
+| 🇵🇾 **Paraguay específico** | Contacto ASOLINFO + grupos ISTQB PY + WhatsApp coordination |
+| 💼 **Career switchers** | Career paths + salary data PY vs LATAM vs US |
+| 📈 **Career growth** | Cert paths después de CTFL + interview prep completo |
+| 📄 **Estudiantes visuales** | Cheat sheets printable 1-página |
 
 ---
 
-## 🗂️ Estructura del repo
+## 🗂️ Estructura completa del repo (17 directorios)
 
 ```
 istqb-prep-v4/
@@ -59,32 +71,38 @@ istqb-prep-v4/
 ├── 00_README/                                 ← overview completo
 ├── 01_plan_estudio/                           ← plan 8 semanas + checkpoints
 ├── 02_syllabus_v4_0_1/                        ← estructura oficial
-├── 03_glosario/                                ← 200+ términos
+├── 03_glosario/                                ← 200+ términos v4.0.1
 ├── 04_flashcards/                              ← deck Anki (85 cards CSV)
 ├── 05_summaries/                               ← 6 resúmenes de capítulos
-├── 06_practice_tests/                          ← quizzes + 3 sample exams + hard mode quiz
-├── 07_resources/                               ← links + ASOLINFO PY + ISTQB PY grupos WA
-├── 08_quick_refs/                              ← 1 página por capítulo (cheatsheets)
-├── 09_career_paths/                            ← QA career roadmap + salaries PY/global
+├── 06_practice_tests/                          ← 6 quizzes + 3 sample exams + hard mode
+├── 07_resources/                               ← links + ASOLINFO + ISTQB PY grupos WA
+├── 08_quick_refs/                              ← cheatsheets 1-página
+├── 09_career_paths/                            ← QA career roadmap + salaries
 ├── 10_exam_difficulty/                         ← common failures + prep checklist
 ├── 11_cert_paths/                              ← full ISTQB catalog + alternatives
 ├── 12_external_resources/                      ← top GitHub repos + simulators
-└── 13_v4_changes/                              ← cambios importantes v3.1 → v4.0.1
+├── 13_v4_changes/                              ← cambios v3.1 → v4.0.1
+├── 14_external_repos/                          ← catálogo exhaustivo 18+ repos
+├── 15_interview_prep/                          ← 60 preguntas + STAR + behavioral
+├── 16_cheat_sheets/                            ← 15 printable 1-página
+└── 17_study_groups/                            ← facilitation guide + WhatsApp templates
 ```
 
 ---
 
-## 📊 Stats
+## 📊 Stats (versión actual)
 
-- **42+ archivos**
-- **~340 KB** de contenido markdown
+- **48+ archivos** markdown
+- **~470 KB** de contenido
 - **64 Learning Objectives** cubiertos
-- **6 capítulos** completos + hard mode quiz
-- **120+ preguntas** entre quizzes (Cap 1+4 detallados, hard mode) y sample exams (120)
+- **6 capítulos** + Hard mode quiz Cap 4 & 5
+- **160+ preguntas** entre quizzes y sample exams
 - **85 flashcards** Anki-importable
-- **9 career paths** documentados
+- **9 career paths** desde junior hasta principal
 - **24+ ISTQB certifications** mapeadas
-- **5 external GitHub repos** curados
+- **18+ GitHub repos externos** curados
+- **60+ interview questions** con frameworks STAR
+- **15 cheat sheets** printable (1 página cada uno)
 
 ---
 
@@ -124,34 +142,22 @@ Ver detalles en [`13_v4_changes/CAMBIOS_v3.1_a_v4.0.1.md`](13_v4_changes/CAMBIOS
 **Modalidades:** online con proctor o presencial en Asunción.
 **Idioma:** español LATAM disponible.
 
-**Sobre los 2 JIDs `@201309445722357` y `@117111141752976`:** eran IDs internos del bridge de WhatsApp de Iván (no contactos). Lo encontrado, **el grupo ISTQB PY real es `120363175387159404@g.us` (Grupo: "ISTQB Brave and Courageous")**, y los 6 miembros del grupo son:
-- **Natalia Cruz** (595982923913) — tier3
-- **Daisy** (595981459382) — tier2 core
-- **Alejandro Maciel (MentorMate)** (595974465910) — INSTRUCTOR del curso ISTQB
-- **Jose S** (595971190089) — untiered
-- ¿? (595983988909) — sin nombre en vCard
-- **V BC** (595961831298) — vCard
+### Grupo ISTQB PY (¡tus amigos!)
 
-Ver [`07_resources/istqb_py_grupos_wa.md`](07_resources/istqb_py_grupos_wa.md) para el detalle.
+- **JID:** `120363175387159404@g.us` (Grupo: "ISTQB Brave and Courageous")
+- **6 miembros:** Daisy, Natalia Cruz, Alejandro Maciel (MentorMate, instructor), Jose S, V BC, ¿?
+- **Cómo coordinar:** ver [`17_study_groups/README.md`](17_study_groups/README.md)
 
 ---
 
 ## ⚠️ Limitaciones honestas
 
-1. **Sample exams NO son oficiales** — ISTQB vende sample exams oficiales a través de Member Boards. Los de este repo son aproximaciones curriculares.
+1. **Sample exams NO son oficiales** — ISTQB vende sample exams oficiales a través de Member Boards.
 2. **El syllabus PDF no se redistribuye** — copyright ISTQB. Solo está **enlazado**.
-3. **Salarios Paraguay** limitados a fuentes públicas (Glassdoor). Hay más variabilidad fuera de eso.
-4. **Pass rates ISTQB no son oficiales** — son estimaciones de training providers (trendig, istqb.guru).
+3. **Salarios Paraguay** limitados a fuentes públicas (Glassdoor).
+4. **Pass rates ISTQB no son oficiales** — son estimaciones de training providers.
 5. **Las cifras USD/₲ pueden cambiar** — verificar al momento de negociar.
-
----
-
-## 🛠️ Stack técnico del repo
-
-- **Markdown** (.md) — todos los archivos
-- **CSV** — flashcards (Anki/Quizlet)
-- **MIT License** — redistribution libre con atribución
-- **Sin build process** — solo lectura
+6. **Algunos repos externos son experimentales** — verificar antes de usar.
 
 ---
 
@@ -163,25 +169,52 @@ Ver [`07_resources/istqb_py_grupos_wa.md`](07_resources/istqb_py_grupos_wa.md) p
 4. Push (`git push origin mejora/cap-5-quiz`)
 5. Pull Request
 
+**Pull Requests especialmente valorados:**
+- Nuevas preguntas para quizzes (Cap 4 o 5 preferred)
+- Traducción a otros idiomas
+- Fix de typos / erratas
+- Casos reales de Paraguay/LATAM
+
 ---
 
 ## 🎯 Recommended Reading Order
 
 ### Antes del examen (8 semanas):
-1. `01_plan_estudio/` — el plan
-2. `02_syllabus_v4_0_1/` — la estructura
-3. `05_summaries/` — los resúmenes
-4. `06_practice_tests/quizzes_por_capitulo/` — quiz por cap
-5. `06_practice_tests/sample_exam_A.md` → B → C
-6. `06_practice_tests/quizzes_por_capitulo/cap_4_5_hard_mode.md` ⭐ (donde falla la gente)
-7. `10_exam_difficulty/` — quédate sin fallar
-8. `08_quick_refs/` — última milla
-9. `04_flashcards/` — Anki mobile en commuting
+
+**Setup:**
+- [`17_study_groups/`](17_study_groups/) — coordiná con tu grupo
+- [`01_plan_estudio/`](01_plan_estudio/) — tu plan
+
+**Estudio base:**
+1. [`02_syllabus_v4_0_1/`](02_syllabus_v4_0_1/) — estructura
+2. [`05_summaries/`](05_summaries/) — resúmenes por cap
+3. [`13_v4_changes/`](13_v4_changes/) — qué cambió v3.1 → v4.0
+4. [`03_glosario/`](03_glosario/) — vocabulario oficial
+
+**Práctica:**
+5. [`04_flashcards/`](04_flashcards/) — Anki mobile en commuting
+6. [`06_practice_tests/quizzes_por_capitulo/`](06_practice_tests/quizzes_por_capitulo/) — quizzes
+7. [`06_practice_tests/sample_exam_A.md`](06_practice_tests/) — A
+8. [`06_practice_tests/sample_exam_B.md`](06_practice_tests/) — B
+9. [`06_practice_tests/sample_exam_C.md`](06_practice_tests/) — C
+10. [`06_practice_tests/quizzes_por_capitulo/cap_4_5_hard_mode.md`](06_practice_tests/) — Hard mode
+
+**Refuerzo:**
+11. [`10_exam_difficulty/`](10_exam_difficulty/) — quédate sin fallar
+12. [`08_quick_refs/`](08_quick_refs/) — cheatsheets
+13. [`16_cheat_sheets/`](16_cheat_sheets/) — 15 printable
+
+**Última semana:**
+14. [`16_cheat_sheets/README.md#sheet-15`](16_cheat_sheets/) — Final day checklist
+15. **Rendí.**
 
 ### Después del examen (semana 9+):
-10. `09_career_paths/` — qué carrera querés
-11. `11_cert_paths/` — qué cert tomar después
-12. `12_external_resources/` — otros recursos para seguir aprendiendo
+
+16. [`09_career_paths/`](09_career_paths/) — qué carrera querés
+17. [`11_cert_paths/`](11_cert_paths/) — qué cert tomar después
+18. [`12_external_resources/`](12_external_resources/) — recursos complementarios
+19. [`14_external_repos/`](14_external_repos/) — catálogo exhaustivo
+20. [`15_interview_prep/`](15_interview_prep/) — preparate para interviews
 
 ---
 
@@ -194,21 +227,28 @@ R: NO comercialmente. MIT + fair-use ISTQB solo permite compartir libremente sin
 R: Si completás el plan de 8 semanas + 3 sample exams con ≥65% consistente, deberías pasar. Pero el material es apoyo; el syllabus PDF oficial es la fuente autoritativa.
 
 **P: ¿Qué certificación tomar después?**
-R: Depende de tu rol. Si te gusta automation → CTAL-TAE. Si vas a lead → CTAL-TM. Si te interesa AI → CT-GenAI. Ver `11_cert_paths/README.md`.
+R: Depende de tu rol. Si te gusta automation → CTAL-TAE. Si vas a lead → CTAL-TM. Si te interesa AI → CT-GenAI. Ver [`11_cert_paths/README.md`](11_cert_paths/README.md).
 
 **P: ¿Es ISTQB suficiente para conseguir trabajo de QA?**
-R: No. ISTQB es la **base**. Necesitás: ISTQB + automation skills (Playwright/Selenium) + inglés (B2+) + portfolio. Ver `09_career_paths/README.md`.
+R: No. ISTQB es la **base**. Necesitás: ISTQB + automation skills (Playwright/Selenium) + inglés (B2+) + portfolio. Ver [`09_career_paths/README.md`](09_career_paths/README.md).
 
 **P: ¿Cuál es el primer trabajo que puedo esperar?**
-R: Junior QA local en PY: USD 1,300-3,300/año. Junior QA remoto para US: USD 24-48K. Ver `09_career_paths/README.md`.
+R: Junior QA local en PY: USD 1,300-3,300/año. Junior QA remoto para US: USD 24-48K. Ver [`09_career_paths/README.md`](09_career_paths/README.md).
+
+**P: ¿Cómo coordino con mi grupo de estudio?**
+R: Ver [`17_study_groups/README.md`](17_study_groups/README.md) — incluye templates de WhatsApp.
+
+**P: ¿Cuál es la diferencia entre Hard mode quiz y Cap 4 quiz?**
+R: Cap 4 quiz es básico (conceptual). Hard mode quiz es K3 aplicado con scenarios (donde falla la gente).
 
 ---
 
 ## 📞 Soporte / comunidad
 
-**Problemas con el material:** abrí un issue en este repo.
-**Preguntas del examen:** ISTQB Member Board Paraguay (ASOLINFO).
-**Preguntas ISTQB oficiales:** https://www.istqb.org
+- **Problemas con el material:** abrir issue en este repo
+- **Preguntas del examen:** ISTQB Member Board Paraguay (ASOLINFO)
+- **Preguntas ISTQB oficiales:** https://www.istqb.org
+- **Discord/Slack community:** Ministry of Testing
 
 ---
 
@@ -219,6 +259,8 @@ R: Junior QA local en PY: USD 1,300-3,300/año. Junior QA remoto para US: USD 24
 - **Maintainer:** Ivan Weiss Van Der Pol
 - **Prerequisito ISTQB:** ninguno (Foundation es entrada)
 - **Siguiente nivel:** CTFL Advanced (CTAL-TA/TM/TTA/TAE)
+- **Tamaño total:** ~470 KB, 48 archivos
+- **Idioma principal:** español LATAM (con English content donde oficial)
 
 ---
 
