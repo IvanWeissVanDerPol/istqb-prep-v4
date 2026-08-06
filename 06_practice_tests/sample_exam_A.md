@@ -19,6 +19,8 @@ B) Error → defect → failure.
 C) Error → failure → defect.
 D) Defect → error → failure.
 
+<details><summary>✅ Respuesta</summary>**B.** Error → defect → failure. El humano hace un error → queda un defect en el código → cuando el defect ejecuta, produce un failure observable.</details>
+
 **Q2. (K1, LO 1.3.1) El "pesticide paradox" significa que:**
 
 A) Los bugs se acumulan como pesticidas.
@@ -351,3 +353,77 @@ Calculá tu score: **(correctas / 40) × 100**
 5. **Primera opción que parece obvia** usualmente es correcta (no busques trampa)
 6. **Si dudás entre 2 opciones**, la respuesta ISTQB es la más específica/técnica
 7. **NO** dejes respuestas en blanco — no hay penalidad por mal
+
+
+---
+
+## 📋 RESPUESTAS (Appendix)
+
+**⚠️ Disclaimer:** estas son mis mejores interpretaciones del syllabus oficial v4.0.1, no garantizadas 100% correctas.
+
+| Q# | Respuesta | Explicación breve |
+|----|-----------|-------------------|
+| 1 | **B** | Error → defect → failure (cadena causal oficial). |
+| 2 | **B** | Pesticide paradox: aplicar los mismos tests repetidamente encuentra cada vez menos nuevos defects. |
+| 3 | **B** | Absence-of-errors fallacy: un sistema sin defects puede no satisfacer las necesidades del usuario. |
+| 4 | **D** | Las actividades son planning, analysis, design, implementation, execution, completion. Test abandonment no es actividad. |
+| 5 | **C** | Independencia crece: author → peer → separate team → external company. C es la MÁS independiente. |
+| 6 | **C** | Functional NO es nivel, es tipo. 4 niveles: Component, Integration, System, Acceptance. |
+| 7 | **B** | Non-functional = calidad (perf, security). A, C, D son funcionales. |
+| 8 | **B** | Confirmation = re-test específico. Regression = broad sweep. NO sinónimos. |
+| 9 | **B** | Shift-left = testear antes, no después. |
+| 10 | **B** | DevOps = continuous testing en CI/CD pipeline. |
+| 11 | **D** | TDD, ATDD, BDD son test-first. XYZ-testing no existe. |
+| 12 | **B** | Retrospectives = process improvement, no castigo. |
+| 13 | **B** | Static no ejecuta; dynamic sí ejecuta. |
+| 14 | **D** | Inspection es la MÁS formal. |
+| 15 | **B** | Moderator es rol ISTQB estándar. |
+| 16 | **C** | EP para 18-65: 3 particiones (<18, 18-65, >65). |
+| 17 | **B** | BVA 2-value para 1-31: 0, 1, 31, 32. |
+| 18 | **D** | 2^5 = 32 combinaciones para 5 conditions binarias. |
+| 19 | **B** | State transition testing cubre estados, eventos, transiciones, acciones. |
+| 20 | **B** | Branch coverage requiere decisiones evaluadas a true y false. |
+| 21 | **C** | Error guessing es experience-based. |
+| 22 | **B** | Exploratory = aprender+diseñar+ejecutar en paralelo. NO aleatorio. |
+| 23 | **B** | Checklist-based = pre-made lists. NO ad-hoc. |
+| 24 | **B** | User story format: Como <rol>, quiero <acción>, para <beneficio>. |
+| 25 | **D** | Acceptance criteria: Given-When-Then, checklist, scenarios. OOP no. |
+| 26 | **B** | ATDD = Acceptance Test-Driven Development. |
+| 27 | **B** | White-box útil para coverage + código muerto. NO reemplaza black-box. |
+| 28 | **C** | Test pyramid: 70% unit, 20% integration, 10% E2E. |
+| 29 | **B** | Risk = likelihood × impact (producto, no suma). |
+| 30 | **C** | Project risk afecta schedule/coste. Product risk afecta calidad del producto. |
+| 31 | **B** | Entry ANTES de empezar; Exit ANTES de cerrar. NO sinónimos. |
+| 32 | **B** | Defect report típico incluye severity y priority. |
+| 33 | **C** | Cantidad de developers NO es métrica de testing. |
+| 34 | **B** | Prioritization = orden de ejecución según riesgo. |
+| 35 | **D** | Q1 (tech-facing, support) = component + integration. |
+| 36 | **D** | Calendar tool no es categoría ISTQB. |
+| 37 | **B** | Automation benefit: repetibilidad + velocidad. |
+| 38 | **B** | Automation risk: maintenance burden + unrealistic expectations. |
+| 39 | **B** | Static analysis: detecta undefined variables, syntax errors. |
+| 40 | **B** | Test execution tool = automated runner (Selenium, Playwright). |
+
+
+### Análisis por capítulo
+
+| Cap | Preguntas | Score | % | Status |
+|-----|-----------|-------|---|--------|
+| 1 | Q1-5 | /5 | % | _____ |
+| 2 | Q6-12 | /7 | % | _____ |
+| 3 | Q13-15 | /3 | % | _____ |
+| 4 | Q16-27 | /12 | % | _____ |
+| 5 | Q28-35 | /8 | % | _____ |
+| 6 | Q36-40 | /5 | % | _____ |
+| **Total** | **Q1-40** | **/40** | **%** | **Pass ≥65%** |
+
+### Diagnóstico
+
+| Si fallaste en | Acción |
+|---|---|
+| **Cap 1** | Volvé a `05_summaries/cap_01_fundamentos_v4.md`. Memorizar 7 principios |
+| **Cap 2** | Repasá SDLC, niveles, test-first, shift-left |
+| **Cap 3** | Memorizar review types + static vs dynamic |
+| **Cap 4** | Práctica hands-on de BVA, EP, decision tables |
+| **Cap 5** | Memorizar risk = likelihood × impact. Repasar test pyramid + quadrants |
+| **Cap 6** | Categorías de tools. Automation benefits vs risks |

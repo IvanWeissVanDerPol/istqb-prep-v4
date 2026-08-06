@@ -1,5 +1,13 @@
 # 🎓 ISTQB CTFL Prep Hub v4.0.1
 
+[![MIT License](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
+[![ISTQB CTFL v4.0.1](https://img.shields.io/badge/ISTQB-CTFL%20v4.0.1-blue)](https://www.istqb.org)
+[![Maintenance](https://img.shields.io/badge/Maintained-yes-green.svg)](https://github.com/IvanWeissVanDerPol/istqb-prep-v4/graphs/commit-activity)
+[![Contributions Welcome](https://img.shields.io/badge/Contributions-welcome-orange.svg)](CONTRIBUTING.md)
+[![Code of Conduct](https://img.shields.io/badge/Code%20of%20Conduct-1.4-blue.svg)](CODE_OF_CONDUCT.md)
+[![Spanish LATAM](https://img.shields.io/badge/Idioma-Espa%C3%B1ol%20LATAM-yellow)](https://github.com/IvanWeissVanDerPol/istqb-prep-v4)
+[![Paraguay](https://img.shields.io/badge/Hecho%20en-Asunci%C3%B3n%2C%20PY-red)](https://github.com/IvanWeissVanDerPol/istqb-prep-v4)
+
 > **Material curado para preparar el examen ISTQB Certified Tester Foundation Level (CTFL) v4.0.1** — la credencial internacional más reconocida de QA.
 
 📅 **Basado en:** Syllabus oficial ISTQB CTFL v4.0.1 (15-sep-2024, 78 pp, 1135 min oficiales)
@@ -7,6 +15,36 @@
 📅 **Licencia:** MIT (este material) + © ISTQB (syllabus oficial — enlazado, no redistribuido)
 🌐 **Repo público:** https://github.com/IvanWeissVanDerPol/istqb-prep-v4
 ⭐ **Apto para:** Junior/Mid/Senior QA en Paraguay y LATAM, o grupos de estudio
+
+---
+
+## 🎯 En 60 segundos
+
+**¿Qué es?** Material completo en español para preparar el examen **ISTQB CTFL v4.0.1** — la certificación internacional de QA que abre puertas a trabajos remotos mejor pagos (USD 24-48K+ para LATAM).
+
+**¿Qué tiene?**
+- Plan de estudio de 8 semanas
+- Sample exams cronometrados con respuestas
+- Quizzes por capítulo
+- 85 flashcards Anki
+- Career guidance + 60 preguntas de interview
+
+**¿Por qué ISTQB?** Es la certificación de QA más reconocida globalmente (1M+ certificados, 130+ países). Es la puerta de entrada a roles senior y remote.
+
+**¿Por dónde empiezo?** [`01_plan_estudio/00_vision_general.md`](01_plan_estudio/00_vision_general.md) — el plan. Y si querés trackear tu progreso: [`00_PROGRESS.md`](00_PROGRESS.md).
+
+---
+
+## ⚠️ Lo que este repo NO es
+
+- **NO es material oficial ISTQB** — solo un APOYO al estudio. El syllabus oficial es la fuente autoritativa.
+- **NO garantiza trabajo** después del examen. ISTQB es base, no destino.
+- **NO es sustituto** de práctica real con herramientas (Playwright, Postman, etc).
+- **NO está afiliado a ISTQB** — no somos un Accredited Training Provider.
+
+---
+
+## 🚀 Quick start (10 min reading, 8 weeks studying)
 
 ---
 
