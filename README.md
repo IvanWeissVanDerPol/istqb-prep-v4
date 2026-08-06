@@ -153,7 +153,15 @@ Ver detalles en [`09_v4_changes/CAMBIOS_v3.1_a_v4.0.1.md`](09_v4_changes/CAMBIOS
 
 1. **Sample exams NO son oficiales** — ISTQB vende sample exams oficiales a través de Member Boards. Los de este repo son aproximaciones curriculares.
 2. **El syllabus PDF no se redistribuye** — copyright ISTQB. Solo está **enlazado**.
-3. **JIDs `@201309445722357` y `@117111141752976`** no se identificaron en el corpus local (probablemente canales/grupos externos de ISTQB PY).
+3. **Sobre los 2 JIDs `@201309445722357` y `@117111141752976`:** eran IDs internos del bridge de WhatsApp de Iván (no contactos). Lo encontrado, **el grupo ISTQB PY real es `120363175387159404@g.us` (Grupo: "ISTQB Brave and Courageous")**, y los 6 miembros del grupo son:
+   - **Natalia Cruz** (595982923913) — tier3
+   - **Daisy** (595981459382) — tier2 core
+   - **Alejandro Maciel (MentorMate)** (595974465910) — INSTRUCTOR del curso ISTQB
+   - **Jose S** (595971190089) — untiered
+   - ¿?  (595983988909) — sin nombre en vCard
+   - **V BC** (595961831298) — vCard
+
+Ver `07_resources/istqb_py_grupos_wa.md` para el detalle.
 
 ---
 
