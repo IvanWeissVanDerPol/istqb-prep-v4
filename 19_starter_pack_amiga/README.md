@@ -48,7 +48,7 @@ Personas que quieren entrar a QA pero:
 ## � Recursos referenciados en este pack
 
 - ISTQB CTFL v4.0.1 syllabus oficial (gratis PDF): https://istqb.org
-- ASOLINFO Paraguay (dónde rendir el examen): https://www.asolinfo.org.py
+- ASOLINFO Paraguay (Asociación Paraguaya de Informática, donde rendir el examen) — buscar el contacto actual en https://istqb.org/member-boards/
 - Material de estudio base: este repo (`istqb-prep-v4`)
 
 ---

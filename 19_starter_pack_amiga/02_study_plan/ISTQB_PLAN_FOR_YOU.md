@@ -16,7 +16,7 @@ By the end of week 6, you're ready to take the **ISTQB CTFL v4.0.1** exam in Asu
 - **Available in Spanish** — but you can do it in English too
 
 The official material is here (free PDF):
-→ https://istqb.org/certifications/certified-tester-foundation-level/
+- **Official ISTQB CTFL v4.0 page:** https://istqb.org/certifications/certified-tester-foundation-level-ctfl-v4-0/
 
 Your friend already organized a complete study pack at:
 → https://github.com/IvanWeissVanDerPol/istqb-prep-v4
@@ -235,7 +235,7 @@ This is where you find out what you actually know.
 
 ### Day 6-7 — Schedule the exam + final prep (6h)
 
-- **Today:** Email ASOLINFO Paraguay (https://www.asolinfo.org.py) → register for the exam
+- **Today:** Email ASOLINFO Paraguay (Asociación Paraguaya de Informática) — find current contact via the official ISTQB member boards list at https://istqb.org/member-boards/ → register for the exam
 - Pick a date 2-4 weeks out
 - Cost: ~USD 200, paid when you register
 

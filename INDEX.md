@@ -54,6 +54,7 @@
 | 15 | [`15_interview_prep/`](15_interview_prep/) | 60 preguntas + STAR framework | Después de CTFL |
 | 16 | *(eliminado, contenido en 08)* | | |
 | 17 | [`17_study_groups/`](17_study_groups/) | Facilitation guide + WhatsApp templates | Setup inicial |
+| 19 | [`19_starter_pack_amiga/`](19_starter_pack_amiga/) | Personalized friend onboarding pack (5 files, English, iPhone-first) | Si estás recién empezando con cero experiencia |
 
 ### 🔥 Audit / governance
 
