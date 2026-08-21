@@ -81,6 +81,10 @@
 - **12_external_resources/**: Top 5 GitHub repos + simulators
 - **Hard Mode Quiz (Cap 4+5)**: 20 preguntas K3 advanced
 
+### Round 3 (Aug 2026)
+
+- **19_starter_pack_amiga/**: Personalized friend onboarding pack — 5 files in plain English covering what QA is, ISTQB study plan, jobs/AI tooling, salary reality (PY vs US/EU remote), and 18 hand-picked YouTube videos. Tailored for someone with iPhone-only access and animal-care background.
+
 ---
 
 ## 📚 Para qué sirve este repo
@@ -123,7 +127,8 @@ istqb-prep-v4/
 ├── 14_external_repos/                          ← catálogo exhaustivo 18+ repos
 ├── 15_interview_prep/                          ← 60 preguntas + STAR + behavioral
 ├── 16_cheat_sheets/                            ← 15 printable 1-página
-└── 17_study_groups/                            ← facilitation guide + WhatsApp templates
+├── 17_study_groups/                            ← facilitation guide + WhatsApp templates
+└── 19_starter_pack_amiga/                      ← personalized friend onboarding (Aug 2026)
 ```
 
 ---
