@@ -70,7 +70,7 @@
 - [ ] Syllabus cap 6 (LO 6.1.1 → 6.2.1) — solo 20 min oficiales
 - [ ] Resumen `05_summaries/cap_06_herramientas_v4.md`
 - [ ] Beneficios vs riesgos de automation (6.2.1)
-- [ ] **Repasar `09_v4_changes/CAMBIOS_v3.1_a_v4.0.1.md`** — cambios clave
+- [ ] **Repasar `13_v4_changes/CAMBIOS_v3.1_a_v4.0.1.md`** — cambios clave
 - [ ] Quiz Cap 6 — meta ≥75%
 - [ ] Repaso glosario NUEVOS v4.0.1 (interacción capability, flexibility, safety)
 - [ ] Repaso flashcards bloque Cap 4

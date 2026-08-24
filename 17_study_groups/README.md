@@ -40,7 +40,7 @@ Comparto este repo: https://github.com/IvanWeissVanDerPol/istqb-prep-v4
 Plan: 8 semanas, 1 cap por semana, sesión grupal Domingos.
 
 Esta semana: Cap 1 (Fundamentals)
-- Lean 02_syllabus_v4_0_1/README.md y 05_summaries/cap_01_fundamentos_v4.md
+- Lean 02_syllabus/README.md y 05_summaries/cap_01_fundamentos_v4.md
 - Hagan quiz 06_practice_tests/quizzes_por_capitulo/cap_01_quiz.md
 
 Domingos 18:00 PY: sesión zoom/video para discutir dudas.

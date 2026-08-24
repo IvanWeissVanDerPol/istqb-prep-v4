@@ -124,8 +124,8 @@ El sample exam sin respuestas es como dar examen sin gabarito. Es lo más básic
 
 **Afecta:** Roles 1, 11, 29.
 
-`09_career_paths/` se renombró a `09_career_paths/` y `09_v4_changes/` a `13_v4_changes/`. Esto rompe:
-- Cualquier link interno que apunte a `09_v4_changes/`
+`09_career_paths/` se renombró a `09_career_paths/` y `13_v4_changes/` a `13_v4_changes/`. Esto rompe:
+- Cualquier link interno que apunte a `13_v4_changes/`
 - Cualquier PR que referencie el número
 - La intuición del orden
 
@@ -139,7 +139,7 @@ El sample exam sin respuestas es como dar examen sin gabarito. Es lo más básic
 
 Múltiples lugares con la misma información:
 - `08_quick_refs/` + `16_cheat_sheets/` (overlap 70%)
-- `02_syllabus_v4_0_1/` + `05_summaries/` (overlap parcial)
+- `02_syllabus/` + `05_summaries/` (overlap parcial)
 - `10_exam_difficulty/` + `15_interview_prep/` (overlap conceptual)
 
 **Fix propuesto:**

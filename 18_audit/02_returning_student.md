@@ -89,7 +89,7 @@ Crear:
 ...
 ```
 
-### F2.2: Crear `00_PROGRESS.md` personalizable
+### F2.2: Crear `00_README/00_PROGRESS.md` personalizable
 
 ```markdown
 # 📊 Mi progreso CTFL

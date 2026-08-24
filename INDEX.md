@@ -20,10 +20,10 @@
 
 | # | Directorio | Qué hay | Cuándo |
 |---|---|---|---|
-| 00 | [`00_PROGRESS.md`](00_PROGRESS.md) | Tracker personal semanal con checkboxes | Semana a semana |
+| 00 | [`00_README/00_PROGRESS.md`](00_README/00_PROGRESS.md) | Tracker personal semanal con checkboxes | Semana a semana |
 | 00 | [`00_README/`](00_README/) | Overview extendido (opcional) | Setup inicial |
 | 01 | [`01_plan_estudio/`](01_plan_estudio/) | Plan 8 semanas + checkpoints | Setup inicial |
-| 02 | [`02_syllabus_v4_0_1/`](02_syllabus_v4_0_1/) | Estructura oficial + mapa 64 LOs | Referencia constante |
+| 02 | [`02_syllabus/`](02_syllabus/) | Estructura oficial + mapa 64 LOs | Referencia constante |
 | 03 | [`03_glosario/`](03_glosario/) | 50+ términos v4.0.1 | Referencia |
 | 04 | [`04_flashcards/`](04_flashcards/) | 85 cards Anki + guía import | Mobile, commuting |
 | 05 | [`05_summaries/`](05_summaries/) | 6 resúmenes de capítulos | Estudio base |
@@ -54,7 +54,10 @@
 | 15 | [`15_interview_prep/`](15_interview_prep/) | 60 preguntas + STAR framework | Después de CTFL |
 | 16 | *(eliminado, contenido en 08)* | | |
 | 17 | [`17_study_groups/`](17_study_groups/) | Facilitation guide + WhatsApp templates | Setup inicial |
-| 19 | [`19_starter_pack_amiga/`](19_starter_pack_amiga/) | Personalized friend onboarding pack (5 files, English, iPhone-first) | Si estás recién empezando con cero experiencia |
+| 19 | [`19_starter_pack_belen/`](19_starter_pack_belen/) | Personalized pack para Belen — perfil sin experiencia técnica, iPhone-first, animal-care background | Si estás recién empezando con cero experiencia |
+| 20 | [`20_starter_pack_luana/`](20_starter_pack_luana/) | Personalized pack — perfil trilingüe + intérprete + CM (Luana Benitez, 2026) | Si tenés background profesional y manejo de idiomas |
+
+> **📌 Nota sobre los starter packs:** Los packs 19 y 20 son **deliberadamente divergentes** — cada uno cubre el journey completo de un perfil distinto (Belen: zero-tech / iPhone / animal-care; Luana: trilingüe / profesional / tiempo-parcial). No comparten estructura interna porque las prioridades de contenido son distintas. Si querés crear un tercer pack para otro perfil, copiá el que más se parezca y adaptá.
 
 ### 🔥 Audit / governance
 
@@ -77,7 +80,7 @@
 - `CODE_OF_CONDUCT.md` — Contributor Covenant v1.4
 - `CHANGELOG.md` — history of releases
 - `DEPLOY_COMMANDS.md` — comandos git para maintainers
-- `00_PROGRESS.md` — tracker personal
+- `00_README/00_PROGRESS.md` — tracker personal
 
 ### 00_README/ (1 archivo)
 - `00_README/README.md` — overview extendido
@@ -85,9 +88,9 @@
 ### 01_plan_estudio/ (1 archivo)
 - `01_plan_estudio/00_vision_general.md` — plan 8 semanas
 
-### 02_syllabus_v4_0_1/ (2 archivos)
-- `02_syllabus_v4_0_1/README.md` — estructura oficial
-- `02_syllabus_v4_0_1/MAPA_COMPLETO_OBJETIVOS.md` — checklist 64 LOs
+### 02_syllabus/ (2 archivos)
+- `02_syllabus/README.md` — estructura oficial
+- `02_syllabus/MAPA_COMPLETO_OBJETIVOS.md` — checklist 64 LOs
 
 ### 03_glosario/ (1 archivo)
 - `03_glosario/GLOSARIO_v4.0.1.md` — 50+ términos

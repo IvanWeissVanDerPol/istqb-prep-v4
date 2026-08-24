@@ -203,6 +203,6 @@ The tech part is learnable. The detail part is a gift.
 
 ## 📂 Next file to read
 
-→ `02_study_plan/ISTQB_PLAN_FOR_YOU.md` — your personal 6-week study plan
+→ `../02_study_plan/ISTQB_PLAN_FOR_YOU.md` — your personal 6-week study plan
 
 *If anything in here felt confusing, ask your friend and we'll explain it in a different way.*

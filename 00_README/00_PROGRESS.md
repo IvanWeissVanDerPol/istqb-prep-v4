@@ -160,7 +160,7 @@
 - [ ] Miércoles: si Sample Exams <75%, reintenté Sample Exam A
 - [ ] Jueves: repaso final focalizado
 - [ ] Viernes: NO ESTUDIAR. Descanso.
-- [ ] Sábado: check pre-examen (ver `16_cheat_sheets/README.md` Final Day Checklist)
+- [ ] Sábado: check pre-examen (ver `08_quick_refs/cheatsheets/15_printable_cheatsheets.md` Final Day Checklist)
 - [ ] **Domingo / fecha agendada: ¡RINDÍ!**
 
 ---

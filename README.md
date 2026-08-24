@@ -31,7 +31,7 @@
 
 **¿Por qué ISTQB?** Es la certificación de QA más reconocida globalmente (1M+ certificados, 130+ países). Es la puerta de entrada a roles senior y remote.
 
-**¿Por dónde empiezo?** [`01_plan_estudio/00_vision_general.md`](01_plan_estudio/00_vision_general.md) — el plan. Y si querés trackear tu progreso: [`00_PROGRESS.md`](00_PROGRESS.md).
+**¿Por dónde empiezo?** [`01_plan_estudio/00_vision_general.md`](01_plan_estudio/00_vision_general.md) — el plan. Y si querés trackear tu progreso: [`00_README/00_PROGRESS.md`](00_README/00_PROGRESS.md).
 
 ---
 
@@ -52,12 +52,12 @@
 
 1. 📋 Lee **[`00_README/README.md`](00_README/README.md)** — overview completo
 2. 📅 Sigue **[`01_plan_estudio/00_vision_general.md`](01_plan_estudio/00_vision_general.md)** — plan semana a semana
-3. 📘 Entiende la **estructura del syllabus** en [`02_syllabus_v4_0_1/`](02_syllabus_v4_0_1/)
+3. 📘 Entiende la **estructura del syllabus** en [`02_syllabus/`](02_syllabus/)
 4. 📝 Lee **el resumen de cada capítulo** en [`05_summaries/`](05_summaries/)
 5. ✅ Haz **quizzes por capítulo** en [`06_practice_tests/quizzes_por_capitulo/`](06_practice_tests/quizzes_por_capitulo/)
 6. 🎯 Rendí **3 sample exams** completos en [`06_practice_tests/`](06_practice_tests/) (cronometrados, 60 min)
 7. 🎴 Importa **flashcards** a Anki → ver [`04_flashcards/anki_import_guide.md`](04_flashcards/anki_import_guide.md)
-8. 📄 Repasá **cheat sheets** (1-página por concepto) en [`16_cheat_sheets/`](16_cheat_sheets/)
+8. 📄 Repasá **cheat sheets** (1-página por concepto) en [`08_quick_refs/cheatsheets/`](08_quick_refs/cheatsheets/)
 9. 👥 Coordiná con tu grupo via [`17_study_groups/`](17_study_groups/)
 10. 🛡️ Leé **[`10_exam_difficulty/`](10_exam_difficulty/)** para evitar el 25-30% fail rate
 11. 💼 Después del examen: [`09_career_paths/`](09_career_paths/), [`11_cert_paths/`](11_cert_paths/), [`15_interview_prep/`](15_interview_prep/)
@@ -70,7 +70,7 @@
 
 - **14_external_repos/**: 18+ GitHub repos curados (incluye Farhod75/ct-ai-exam-prep con 420+ preguntas CT-GenAI/CT-AI, LuisAdonais portfolio, snromanov AI test gen)
 - **15_interview_prep/**: 60 preguntas ISTQB + coding + behavioral + frameworks STAR
-- **16_cheat_sheets/**: 15 printable cheat sheets (1 página cada uno, ASCII art)
+- **08_quick_refs/cheatsheets/**: 15 printable cheat sheets (1 página cada uno, ASCII art)
 - **17_study_groups/**: Facilitation guide para grupo ISTQB PY + templates de WhatsApp + role rotation
 
 ### Round 1 (ya publicadas)
@@ -83,7 +83,7 @@
 
 ### Round 3 (Aug 2026)
 
-- **19_starter_pack_amiga/**: Personalized friend onboarding pack — 5 files in plain English covering what QA is, ISTQB study plan, jobs/AI tooling, salary reality (PY vs US/EU remote), and 18 hand-picked YouTube videos. Tailored for someone with iPhone-only access and animal-care background.
+- **19_starter_pack_belen/**: Personalized onboarding pack para Belen — 5 files in plain English covering what QA is, ISTQB study plan, jobs/AI tooling, salary reality (PY vs US/EU remote), and 18 hand-picked YouTube videos. Tailored for someone with iPhone-only access and animal-care background.
 
 ---
 
@@ -112,7 +112,7 @@ istqb-prep-v4/
 │
 ├── 00_README/                                 ← overview completo
 ├── 01_plan_estudio/                           ← plan 8 semanas + checkpoints
-├── 02_syllabus_v4_0_1/                        ← estructura oficial
+├── 02_syllabus/                        ← estructura oficial
 ├── 03_glosario/                                ← 200+ términos v4.0.1
 ├── 04_flashcards/                              ← deck Anki (85 cards CSV)
 ├── 05_summaries/                               ← 6 resúmenes de capítulos
@@ -126,9 +126,10 @@ istqb-prep-v4/
 ├── 13_v4_changes/                              ← cambios v3.1 → v4.0.1
 ├── 14_external_repos/                          ← catálogo exhaustivo 18+ repos
 ├── 15_interview_prep/                          ← 60 preguntas + STAR + behavioral
-├── 16_cheat_sheets/                            ← 15 printable 1-página
+├── 08_quick_refs/cheatsheets/                            ← 15 printable 1-página
 ├── 17_study_groups/                            ← facilitation guide + WhatsApp templates
-└── 19_starter_pack_amiga/                      ← personalized friend onboarding (Aug 2026)
+├── 19_starter_pack_belen/                      ← personalized onboarding for Belen (Aug 2026)
+└── 20_starter_pack_luana/                      ← personalized onboarding for Luana (Aug 2026)
 ```
 
 ---
@@ -229,7 +230,7 @@ Ver detalles en [`13_v4_changes/CAMBIOS_v3.1_a_v4.0.1.md`](13_v4_changes/CAMBIOS
 - [`01_plan_estudio/`](01_plan_estudio/) — tu plan
 
 **Estudio base:**
-1. [`02_syllabus_v4_0_1/`](02_syllabus_v4_0_1/) — estructura
+1. [`02_syllabus/`](02_syllabus/) — estructura
 2. [`05_summaries/`](05_summaries/) — resúmenes por cap
 3. [`13_v4_changes/`](13_v4_changes/) — qué cambió v3.1 → v4.0
 4. [`03_glosario/`](03_glosario/) — vocabulario oficial
@@ -245,10 +246,10 @@ Ver detalles en [`13_v4_changes/CAMBIOS_v3.1_a_v4.0.1.md`](13_v4_changes/CAMBIOS
 **Refuerzo:**
 11. [`10_exam_difficulty/`](10_exam_difficulty/) — quédate sin fallar
 12. [`08_quick_refs/`](08_quick_refs/) — cheatsheets
-13. [`16_cheat_sheets/`](16_cheat_sheets/) — 15 printable
+13. [`08_quick_refs/cheatsheets/`](08_quick_refs/cheatsheets/) — 15 printable
 
 **Última semana:**
-14. [`16_cheat_sheets/README.md#sheet-15`](16_cheat_sheets/) — Final day checklist
+14. [`08_quick_refs/cheatsheets/README.md#sheet-15`](08_quick_refs/cheatsheets/) — Final day checklist
 15. **Rendí.**
 
 ### Después del examen (semana 9+):

@@ -72,7 +72,7 @@ git commit -m "Initial: ISTQB CTFL v4.0.1 prep hub (11 files, ~100KB)
 - Resumen de cambios v3.1 → v4.0.1
 - Top 30 preguntas más probables
 
-Ver también: README.md y 09_v4_changes/."
+Ver también: README.md y 13_v4_changes/."
 
 # 8. Create repo on GitHub (creates remote)
 REPO="ivanweiss/istqb-prep-v4"
@@ -100,12 +100,12 @@ Specific deep links (after first push):
 | File | URL |
 |---|---|
 | README | https://github.com/ivanweiss/istqb-prep-v4/blob/main/00_README/README.md |
-| Syllabus structure | https://github.com/ivanweiss/istqb-prep-v4/tree/main/02_syllabus_v4_0_1 |
-| Full LO checklist | https://github.com/ivanweiss/istqb-prep-v4/blob/main/02_syllabus_v4_0_1/MAPA_COMPLETO_OBJETIVOS.md |
+| Syllabus structure | https://github.com/ivanweiss/istqb-prep-v4/tree/main/02_syllabus |
+| Full LO checklist | https://github.com/ivanweiss/istqb-prep-v4/blob/main/02_syllabus/MAPA_COMPLETO_OBJETIVOS.md |
 | Glossary v4.0.1 | https://github.com/ivanweiss/istqb-prep-v4/blob/main/03_glosario/GLOSARIO_v4.0.1.md |
 | Sample exam A | https://github.com/ivanweiss/istqb-prep-v4/blob/main/06_practice_tests/sample_exam_A.md |
 | Cap 4 quiz | https://github.com/ivanweiss/istqb-prep-v4/blob/main/06_practice_tests/quizzes_por_capitulo/cap_04_quiz.md |
-| Changes v3.1→v4.0.1 | https://github.com/ivanweiss/istqb-prep-v4/blob/main/09_v4_changes/CAMBIOS_v3.1_a_v4.0.1.md |
+| Changes v3.1→v4.0.1 | https://github.com/ivanweiss/istqb-prep-v4/blob/main/13_v4_changes/CAMBIOS_v3.1_a_v4.0.1.md |
 
 ---
 

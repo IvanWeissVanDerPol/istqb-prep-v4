@@ -18,18 +18,20 @@
 
 ## 🗂️ Estructura del repo
 
+> **Para trackear tu progreso semana a semana:** [`00_PROGRESS.md`](00_PROGRESS.md) — checklist personal en esta misma carpeta.
+
 ```
 .
-├── 00_README/                    ← estás acá
+├── 00_README/                    ← estás acá (overview + tracker personal)
 ├── 01_plan_estudio/              ← plan semana-a-semana
-├── 02_syllabus_v4_0_1/           ← estructura oficial, objetivos por sección
+├── 02_syllabus/           ← estructura oficial, objetivos por sección
 ├── 03_glosario/                  ← 200+ términos del glosario v4.0.1
 ├── 04_flashcards/                ← deck Anki / Quizlet
 ├── 05_summaries/                 ← resúmenes capítulo-por-capítulo
 ├── 06_practice_tests/            ← quizzes por capítulo + sample exams
 ├── 07_resources/                 ← links, herramientas, libros, videos
 ├── 08_quick_refs/                ← 1 página por capítulo
-└── 09_v4_changes/                ← qué cambió v3.1 → v4.0.1 (importante!)
+└── 13_v4_changes/                ← qué cambió v3.1 → v4.0.1 (importante!)
 ```
 
 ---
@@ -52,7 +54,7 @@
    - **Cap 5:** Managing Test — 335 min
    - **Cap 6:** Tools — 20 min
 
-**Lectura detallada de cambios:** ver `09_v4_changes/`
+**Lectura detallada de cambios:** ver `13_v4_changes/`
 
 ---
 
@@ -87,7 +89,7 @@
 
 1. Empezá por `01_plan_estudio/00_vision_general.md`
 2. Descargá el **syllabus oficial v4.0.1** desde https://istqb.org (gratis, 78 pp PDF)
-3. Leé `02_syllabus_v4_0_1/` para entender la **estructura** (no es substituto del PDF)
+3. Leé `02_syllabus/` para entender la **estructura** (no es substituto del PDF)
 4. Hacé los **quizzes** después de cada capítulo en `06_practice_tests/`
 5. **Semana 7:** rendí los **sample exams completos** (60 min cronometrados)
 6. **Última semana:** glosario + flashcards

@@ -323,7 +323,7 @@ Antes de usar un repo como recurso de estudio:
 
 | Semana | Recursos principales |
 |---|---|
-| 1-2 | `02_syllabus_v4_0_1/` + `05_summaries/cap_01` + `04_flashcards/` (Anki) |
+| 1-2 | `02_syllabus/` + `05_summaries/cap_01` + `04_flashcards/` (Anki) |
 | 3-4 | `05_summaries/cap_02-03` + bloomikko notas |
 | 5-6 | `05_summaries/cap_04` + Hard mode quiz + lucas-alexandrino (PT) |
 | 7 | `05_summaries/cap_05-06` + Cap 4&5 hard mode quiz |
