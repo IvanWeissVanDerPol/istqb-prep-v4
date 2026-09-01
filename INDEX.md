@@ -56,8 +56,9 @@
 | 17 | [`17_study_groups/`](17_study_groups/) | Facilitation guide + WhatsApp templates | Setup inicial |
 | 19 | [`19_starter_pack_belen/`](19_starter_pack_belen/) | Personalized pack para Belen — perfil sin experiencia técnica, iPhone-first, animal-care background | Si estás recién empezando con cero experiencia |
 | 20 | [`20_starter_pack_luana/`](20_starter_pack_luana/) | Personalized pack — perfil trilingüe + intérprete + CM (Luana Benitez, 2026) | Si tenés background profesional y manejo de idiomas |
+| 21 | [`21_starter_pack_gaby/`](21_starter_pack_gaby/) | **Guía completa** ISTQB v4.0.1 en lenguaje odontológico — Dra. Gabriella González Pane. 34 archivos, 6 capítulos + 3 sample exams + cheatsheets + glosario oficial | Si sos profesional de salud senior y querés aprender QA sin salir del consultorio |
 
-> **📌 Nota sobre los starter packs:** Los packs 19 y 20 son **deliberadamente divergentes** — cada uno cubre el journey completo de un perfil distinto (Belen: zero-tech / iPhone / animal-care; Luana: trilingüe / profesional / tiempo-parcial). No comparten estructura interna porque las prioridades de contenido son distintas. Si querés crear un tercer pack para otro perfil, copiá el que más se parezca y adaptá.
+> **📌 Nota sobre los starter packs:** Los packs 19, 20 y 21 son **deliberadamente divergentes** — cada uno cubre un perfil distinto (Belen: zero-tech / iPhone / animal-care; Luana: trilingüe / profesional / tiempo-parcial; Gaby: profesional de salud senior / analogías clínicas / sin objetivo de career switch). No comparten estructura interna porque las prioridades de contenido son distintas. Si querés crear un nuevo pack para otro perfil, copiá el que más se parezca y adaptá.
 
 ### 🔥 Audit / governance
 

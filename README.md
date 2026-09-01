@@ -84,6 +84,8 @@
 ### Round 3 (Aug 2026)
 
 - **19_starter_pack_belen/**: Personalized onboarding pack para Belen — 5 files in plain English covering what QA is, ISTQB study plan, jobs/AI tooling, salary reality (PY vs US/EU remote), and 18 hand-picked YouTube videos. Tailored for someone with iPhone-only access and animal-care background.
+- **20_starter_pack_luana/**: Personalized pack para Luana Benitez — intérprete L4 trilingüe + Community Manager + Psicología. 5 files cubriendo CV-mapeo a ISTQB, plan 8 sem, ejercicios trilingües Cap 4, y nichos de carrera (LQA/Functional/CS QA).
+- **21_starter_pack_gaby/**: **Guía completa ISTQB CTFL v4.0.1** para la **Dra. Gabriella María González Pane** (odontóloga, 3 especialidades + doctorado, 20+ años de carrera). **34 archivos / ~37K palabras / ~150 min lectura activa.** Cubre los 6 capítulos (10/10 + 10/10 + 7/7 + 13/16 + 10/10 + 8/8 = 58/61 LOs oficiales) con analogías odontológicas exhaustivas. Incluye: autodiagnóstico + mapa LO por LO + 7 quizzes + 3 sample exams cronometrados (A con respuestas, B con respuestas, C sin respuestas) + cheatsheets imprimibles 1-página por capítulo + glosario oficial ISTQB completo (200+ términos) + checklist pre-examen día por día + plan post-aprobación. No es career-switcher; es una **reescritura pedagógica completa** del syllabus para hacerlo accesible desde expertise clínica.
 
 ---
 
@@ -102,7 +104,7 @@
 
 ---
 
-## 🗂️ Estructura completa del repo (17 directorios)
+## 🗂️ Estructura completa del repo (19 directorios)
 
 ```
 istqb-prep-v4/
@@ -129,7 +131,8 @@ istqb-prep-v4/
 ├── 08_quick_refs/cheatsheets/                            ← 15 printable 1-página
 ├── 17_study_groups/                            ← facilitation guide + WhatsApp templates
 ├── 19_starter_pack_belen/                      ← personalized onboarding for Belen (Aug 2026)
-└── 20_starter_pack_luana/                      ← personalized onboarding for Luana (Aug 2026)
+├── 20_starter_pack_luana/                      ← personalized onboarding for Luana (Aug 2026)
+└── 21_starter_pack_gaby/                       ← ISTQB reescrito con analogías odontológicas (Dra. González Pane, Sep 2026)
 ```
 
 ---
